@@ -9,23 +9,10 @@ This project analyzes Wikipedia traffic data using **Dask** for parallel process
 - **Time series visualization** of traffic trends
 - **Storing & querying** processed data with **SQLite**
 
-## Project Structure
-```
-📁 wikipedia-traffic-analysis
-│── 📂 data/                 # Raw & processed datasets
-│── 📂 scripts/              # Python scripts
-│    ├── data_processing.py  # Dask-based data processing
-│    ├── visualization.py    # Data visualization
-│    ├── database_manager.py # SQLite database operations
-│── requirements.txt         # Dependencies
-│── README.md                # Project documentation
-│── setup.py                 # Optional package setup
-```
-
 ## Installation
 First, clone the repository:
 ```bash
-git clone https://github.com/your-username/wikipedia-traffic-analysis.git
+git clone https://github.com/XiaotongZhan/wikipedia-traffic-analysis.git
 cd wikipedia-traffic-analysis
 ```
 Install dependencies:
@@ -34,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-### 1️⃣ **Process Wikipedia Traffic Data**
+### 1️ **Process Wikipedia Traffic Data**
 ```python
 from scripts.data_processing import process_wikipedia_data
 
@@ -42,7 +29,7 @@ df = process_wikipedia_data("./data")
 print(df.head())
 ```
 
-### 2️⃣ **Store Data in SQLite**
+### 2️ **Store Data in SQLite**
 ```python
 from scripts.database_manager import create_database, insert_data
 
@@ -50,7 +37,7 @@ create_database()
 insert_data(df)
 ```
 
-### 3️⃣ **Query Data from SQLite**
+### 3️ **Query Data from SQLite**
 ```python
 from scripts.database_manager import query_data
 
@@ -58,7 +45,7 @@ result_df = query_data()
 print(result_df.head())
 ```
 
-### 4️⃣ **Visualize Data**
+### 4️ **Visualize Data**
 ```python
 from scripts.visualization import plot_time_series
 
