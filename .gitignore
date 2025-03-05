@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.pip-wheel-cache/
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# Cache & temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Test coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Build / Distribution
+build/
+dist/
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Pytest & MyPy
+.mypy_cache/
+.pytest_cache/
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+*.iml
+

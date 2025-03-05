@@ -1,0 +1,8 @@
+pandas
+numpy
+dask
+matplotlib
+sqlite3
+glob2
+gzip
+pytest
