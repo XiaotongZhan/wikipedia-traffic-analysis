@@ -13,13 +13,10 @@ This project analyzes Wikipedia traffic data using **Dask** for parallel process
 ```
 📁 wikipedia-traffic-analysis
 │── 📂 data/                 # Raw & processed datasets
-│── 📂 notebooks/            # Jupyter Notebooks
 │── 📂 scripts/              # Python scripts
 │    ├── data_processing.py  # Dask-based data processing
 │    ├── visualization.py    # Data visualization
 │    ├── database_manager.py # SQLite database operations
-│── 📂 tests/                # Unit tests
-│── .gitignore               # Ignore unnecessary files
 │── requirements.txt         # Dependencies
 │── README.md                # Project documentation
 │── setup.py                 # Optional package setup
